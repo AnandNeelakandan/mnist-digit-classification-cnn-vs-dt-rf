@@ -4,6 +4,10 @@ A complete supervised learning pipeline for handwritten digit recognition using 
 
 ---
 
+This project aims to compare the performance of deep learning and classical machine learning models on the MNIST digit classification task. It demonstrates how CNNs outperform traditional algorithms in image-based tasks, while offering insights into model architecture, evaluation, and deployment.
+
+---
+
 ## 📦 Project Summary
 
 - **Dataset**: MNIST (Modified National Institute of Standards and Technology)
@@ -43,7 +47,7 @@ A complete supervised learning pipeline for handwritten digit recognition using 
 | Random Forest       | 97.25%   |
 | Convolutional Neural Network | 99.03%   |
 
-## output screenshout
+## 🖼️ Output Screenshot
 
 <img width="1188" height="577" alt="image" src="https://github.com/user-attachments/assets/283af4e6-72e4-4133-b45c-6a3156bddcd2" />
 
@@ -60,7 +64,15 @@ A complete supervised learning pipeline for handwritten digit recognition using 
 
 ## 🧪 How to Run
 
-**Clone the repository**:
+1. **Clone the repository**
    ```bash
-    git clone https://github.com/AnandNeelakandan/mnist-digit-classification-cnn-vs-dt-rf.git
-    cd mnist-digit-classification-cnn-vs-dt-rf
+   git clone https://github.com/AnandNeelakandan/mnist-digit-classification-cnn-vs-dt-rf.git
+   %cd mnist-digit-classification-cnn-vs-dt-rf
+   
+# **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+# **Run the main script**
+   ```bash
+   python mnist_pipeline.py
