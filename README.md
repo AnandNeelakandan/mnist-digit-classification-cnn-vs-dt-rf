@@ -43,7 +43,7 @@ A complete supervised learning pipeline for handwritten digit recognition using 
 | Random Forest       | 97.25%   |
 | Convolutional Neural Network | 99.03%   |
 
-## 📈 output screenshout
+## output screenshout
 
 <img width="1188" height="577" alt="image" src="https://github.com/user-attachments/assets/283af4e6-72e4-4133-b45c-6a3156bddcd2" />
 
