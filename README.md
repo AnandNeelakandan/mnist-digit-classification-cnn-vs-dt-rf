@@ -1,31 +1,52 @@
-# 🧠 MNIST Digit Classification
+# 🧠 MNIST Digit Classification | Deep Learning vs Classical ML
 
-A comparison of supervised machine learning models — **Decision Tree**, **Random Forest**, and **CNN** — to classify handwritten digits (0–9) from the MNIST dataset.
-
----
-
-## 🔍 Overview
-- Implemented image classification using **traditional ML** and **Deep Learning**.
-- Trained and evaluated models to identify handwritten digits.
-- Compared model performance across accuracy and generalization.
+A complete supervised learning pipeline for handwritten digit recognition using the MNIST dataset. This project benchmarks a Convolutional Neural Network (CNN) against classical models like Decision Tree and Random Forest, with full evaluation and visualization.
 
 ---
 
-## ⚙️ Tech Stack
-**Python**, **TensorFlow**, **Scikit-learn**, **NumPy**, **Pandas**, **Seaborn**, **Matplotlib**, **Jupyter Notebook**
+## 📦 Project Summary
+
+- **Dataset**: MNIST (Modified National Institute of Standards and Technology)
+- **Problem Type**: Multi-class Image Classification (Digits 0–9)
+- **Tech Stack**: Python, TensorFlow/Keras, Scikit-learn, Matplotlib, Seaborn
+- **Models Implemented**:
+  - ✅ Convolutional Neural Network (CNN)
+  - ✅ Decision Tree Classifier
+  - ✅ Random Forest Classifier
+- **Evaluation Metrics**:
+  - Accuracy
+  - Confusion Matrix
+  - Precision, Recall, F1-Score
+- **Visualizations**:
+  - Class distribution
+  - Sample digit images
+  - Actual vs Predicted grids
+  - Accuracy comparison bar chart
 
 ---
 
-## 📊 Results
-| Model | Accuracy |
-|--------|-----------|
-| Decision Tree | 88.57% |
-| Random Forest | 97% |
-| CNN | 99% ✅ |
+## 🚀 Key Features
 
-**CNN achieved the best accuracy** by leveraging spatial feature extraction through convolutional layers.
+- 📂 **Raw Data Loader**: Reads `.idx` format directly using `struct` and `numpy`
+- 🧠 **CNN Architecture**: 2 Conv2D layers + MaxPooling + Dense layers with softmax output
+- 🌲 **Classical ML Models**: Decision Tree and Random Forest applied on flattened image vectors
+- 📊 **Model Evaluation**: Confusion matrix, classification report, and side-by-side prediction grids
+- 💾 **Model Saving**: CNN model exported as `.h5` for future reuse or deployment
 
 ---
 
-## 📂 Files
+## 📈 Performance Comparison
 
+| Model               | Accuracy |
+|--------------------|----------|
+| Decision Tree       | 88.57%   |
+| Random Forest       | 97.00%   |
+| Convolutional Neural Network | 99.00%   |
+
+---
+
+## 🧪 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/mnist-digit-classification.git
