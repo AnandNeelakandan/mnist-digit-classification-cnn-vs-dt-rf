@@ -43,6 +43,9 @@ A complete supervised learning pipeline for handwritten digit recognition using 
 | Random Forest       | 97.25%   |
 | Convolutional Neural Network | 99.03%   |
 
+<img width="1188" height="577" alt="image" src="https://github.com/user-attachments/assets/283af4e6-72e4-4133-b45c-6a3156bddcd2" />
+
+
 ---
 
 ## 🧪 How to Run
@@ -50,3 +53,9 @@ A complete supervised learning pipeline for handwritten digit recognition using 
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/mnist-digit-classification.git
+2. After cloning, they need to change into that folder
+   ```bash
+   %cd mnist-digit-classification-cnn-vs-dt-rf
+
+# Step 3: Open and run the notebook.
+
