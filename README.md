@@ -51,12 +51,11 @@ A complete supervised learning pipeline for handwritten digit recognition using 
 
 ## 🧪 How to Run
 
-1. Clone the repository:
+**Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/mnist-digit-classification.git
-2. After cloning, they need to change into that folder
-   ```bash
-   %cd mnist-digit-classification-cnn-vs-dt-rf
+   git clone https://github.com/AnandNeelakandan/mnist-digit-classification-cnn-vs-dt-rf.git
+   cd mnist-digit-classification-cnn-vs-dt-rf   
 
-# Step 3: Open and run the notebook.
+
+
 
