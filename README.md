@@ -1,33 +1,31 @@
-# 🧠 MNIST Handwritten Digit Classification (CNN vs Random Forest vs Decision Tree)
+# 🧠 MNIST Digit Classification
 
-## 📄 Project Overview
-This project compares multiple supervised classification models — **Decision Tree**, **Random Forest**, and a **Convolutional Neural Network (CNN)** — on the MNIST dataset.  
-The goal is to classify handwritten digits (0–9) and evaluate the performance of classical ML models versus deep learning.
+A comparison of supervised machine learning models — **Decision Tree**, **Random Forest**, and **CNN** — to classify handwritten digits (0–9) from the MNIST dataset.
 
 ---
 
-## ⚙️ Technologies Used
-- **Python**, **TensorFlow**, **Scikit-learn**, **Seaborn**, **Matplotlib**, **NumPy**, **Pandas**
-- **Jupyter Notebook**
-- **Google Colab**
+## 🔍 Overview
+- Implemented image classification using **traditional ML** and **Deep Learning**.
+- Trained and evaluated models to identify handwritten digits.
+- Compared model performance across accuracy and generalization.
 
 ---
 
-## 📊 Model Performance
-| Model | Accuracy | Remarks |
-|--------|-----------|----------|
-| Decision Tree | 88.57% | Baseline supervised model |
-| Random Forest | 97% | Improved via ensemble learning |
-| CNN | 99% | Best performing model leveraging spatial feature extraction |
+## ⚙️ Tech Stack
+**Python**, **TensorFlow**, **Scikit-learn**, **NumPy**, **Pandas**, **Seaborn**, **Matplotlib**, **Jupyter Notebook**
 
 ---
 
-## 🧩 Key Learnings
-- Implemented **data normalization and reshaping** for CNNs  
-- Compared traditional ML and DL performance  
-- Visualized **confusion matrices and class distributions**  
-- Observed that CNNs excel in image-based pattern recognition  
+## 📊 Results
+| Model | Accuracy |
+|--------|-----------|
+| Decision Tree | 88.57% |
+| Random Forest | 97% |
+| CNN | 99% ✅ |
+
+**CNN achieved the best accuracy** by leveraging spatial feature extraction through convolutional layers.
 
 ---
 
-## 📦 File Structure
+## 📂 Files
+
