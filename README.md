@@ -40,8 +40,8 @@ A complete supervised learning pipeline for handwritten digit recognition using 
 | Model               | Accuracy |
 |--------------------|----------|
 | Decision Tree       | 88.57%   |
-| Random Forest       | 97.00%   |
-| Convolutional Neural Network | 99.00%   |
+| Random Forest       | 97.25%   |
+| Convolutional Neural Network | 99.03%   |
 
 ---
 
