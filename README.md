@@ -53,9 +53,17 @@ A complete supervised learning pipeline for handwritten digit recognition using 
 
 **Clone the repository**:
    ```bash
-   git clone https://github.com/AnandNeelakandan/mnist-digit-classification-cnn-vs-dt-rf.git
-   cd mnist-digit-classification-cnn-vs-dt-rf   
+   'git clone https://github.com/AnandNeelakandan/mnist-digit-classification-cnn-vs-dt-rf.git
+    cd mnist-digit-classification-cnn-vs-dt-rf'   
 
+---
+📧 Contact
+
+📌 Developed by: [Anand Neelakandan]
+
+🔗 GitHub: [https://github.com/AnandNeelakandan?tab=repositories]
+
+💼 LinkedIn: [www.linkedin.com/in/anand-neelakandan-ab3219380]
 
 
 
