@@ -68,11 +68,9 @@ This project aims to compare the performance of deep learning and classical mach
    ```bash
    git clone https://github.com/AnandNeelakandan/mnist-digit-classification-cnn-vs-dt-rf.git
    %cd mnist-digit-classification-cnn-vs-dt-rf
-   
-# **Install dependencies**
+2. Install dependencies
    ```bash
    pip install -r requirements.txt
-
-# **Run the main script**
+3. Run the main script
    ```bash
    python mnist_pipeline.py
