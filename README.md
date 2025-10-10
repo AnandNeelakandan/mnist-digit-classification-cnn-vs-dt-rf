@@ -49,4 +49,4 @@ A complete supervised learning pipeline for handwritten digit recognition using 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AnandNeelakandan/mnist-digit-classification-cnn-vs-dt-rf/blob/main/CNN.ipynb
+   git clone https://github.com/your-username/mnist-digit-classification.git
